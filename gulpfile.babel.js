@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 
-gulp.task('message', (done) => {
+gulp.task('message', (done, MESSAGE) => {
   console.log('hello world!');
   done();
 });
