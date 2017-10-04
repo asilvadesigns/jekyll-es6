@@ -1,8 +1,8 @@
 import gulp from 'gulp';
 
-gulp.task('message', (done) => {
+const Message = (done) => {
   console.log('hello world!');
   done();
-});
+}
 
-gulp.task('default', gulp.series('message'));
+gulp.task('default', gulp.series(Message));
