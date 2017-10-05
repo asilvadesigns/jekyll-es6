@@ -1,6 +1,7 @@
 #
 #   Setup
 title: Jekyll ES6 Boilerplate
+baseurl: "/"
 
 #
 #   Build
