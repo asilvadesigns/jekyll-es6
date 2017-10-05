@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,UAEE,SAAS,AACT,SAAU,CACX,AAED,KACE,uBAAuB,AACvB,UAAW,CACZ","file":"../styles.css","sourcesContent":["html,\nbody {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: sans-serif;\n  color: #333;\n}\n"]}

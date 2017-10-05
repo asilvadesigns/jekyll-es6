@@ -51,6 +51,8 @@ const Styles = () => {
       cascade: false
     }))
     .pipe(nano())
+    .pipe(maps.write(PATHS.css.jekyllSrv))
+    .pipe(maps.write(PATHS.css.dist))
     .pipe(gulp.dest(PATHS.css.jekyllSrv))
     .pipe(gulp.dest(PATHS.css.dist))
     .pipe(sync.stream());
@@ -61,6 +63,8 @@ const Scripts = () => {
     .pipe(maps.init())
     .pipe(babel())
     .pipe(ugly())
+    .pipe(maps.write(PATHS.js.jekyllSrv))
+    .pipe(maps.write(PATHS.js.dist))
     .pipe(gulp.dest(PATHS.js.jekyllSrv))
     .pipe(gulp.dest(PATHS.js.dist))
     .pipe(sync.stream());
