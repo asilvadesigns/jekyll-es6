@@ -22,7 +22,7 @@ const PATHS = {
     jekyllSrv:  './_site/js/'
   },
   jekyll: {
-    src: ['./index.html', './_includes/*', './_layouts/*', './_pages/*', './_posts/*', './_projects'],
+    src: ['./index.html', './_includes/*', './_layouts/*', './_pages/*'],
     dest: './_site/'
   }
 }
